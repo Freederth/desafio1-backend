@@ -32,11 +32,11 @@ const elonmusk = new Usuario(
 		{ nombreLibro: "El señor de las moscas", autorLibro: "William Golding" },
 		{ nombreLibro: "Fundacion", autorLibro: "Isaac Asimov" }
 	],
-	["Ceniza"]
+	["Gata Ceniza"]
 );
 
 console.log("el usuario se llama: ", elonmusk.getFullName());
-elonmusk.addMascotas("Spike");
+elonmusk.addMascotas("Perro Spike");
 console.log("el usuario tiene: ", elonmusk.countMascotas(), " mascotas");
 elonmusk.addBook("El señor de los anillos", "J.R.R. Tolkien");
 console.log("el usuario tiene estos libros: ", elonmusk.getBookNames());
